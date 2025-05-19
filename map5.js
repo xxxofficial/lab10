@@ -4,8 +4,8 @@ const users = [
     { id: 3, name: "Charlie" },
 ];
 
-const names = users.map(function(user) {
+const data = users.map(function(user) {
     return user.id;
 });
 
-console.log(names); 
+console.log(data); 
