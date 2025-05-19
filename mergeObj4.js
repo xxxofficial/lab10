@@ -13,4 +13,4 @@ function mergeObjects(obj1, obj2) {
     
     return result;
 }
-mergeObjects({ color: 'red' }, { color: 'blue' });
+console.log(mergeObjects({ color: 'red' }, { color: 'blue' }));
