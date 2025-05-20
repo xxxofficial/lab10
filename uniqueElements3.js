@@ -1,7 +1,7 @@
 function uniqueElements(arr) {
-    var result = {};
-    for (var i = 0; i < arr.length; i++) {
-        var currentElement = String(arr[i]);
+    let result = {};
+    for (let i = 0; i < arr.length; i++) {
+        let currentElement = String(arr[i]);
         if (result[currentElement] === undefined) {
             result[currentElement] = 1;
         } else {
@@ -11,5 +11,5 @@ function uniqueElements(arr) {
     return result;
 }
 
-var example = uniqueElements(['привет', 'hello', 1, '1', 'hello']);
+let example = uniqueElements(['привет', 'hello', 1, '1', 'hello']);
 console.log(example);
