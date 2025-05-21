@@ -10,7 +10,7 @@ function password(length) {
     let finalPassword = '';
     for (let i = 0; i < length; i++) {
         const RandArr = SymbolsArr[Math.floor(Math.random() * SymbolsArr.length)];
-        const Curr = RandArr[Math.floor(Math.random() * RandSymbols.length)];
+        const Curr = RandArr[Math.floor(Math.random() * RandArr.length)];
         finalPassword += Curr;
     }
     return finalPassword;
