@@ -9,8 +9,8 @@ function password(length) {
 
     let finalPassword = '';
     for (let i = 0; i < length; i++) {
-        const RandSymbols = SymbolsArr[Math.floor(Math.random() * SymbolsArr.length)];
-        const Curr = RandSymbols[Math.floor(Math.random() * RandSymbols.length)];
+        const RandArr = SymbolsArr[Math.floor(Math.random() * SymbolsArr.length)];
+        const Curr = RandSArr[Math.floor(Math.random() * RandSymbols.length)];
         finalPassword += Curr;
     }
     return finalPassword;
