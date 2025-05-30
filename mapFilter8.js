@@ -1,7 +1,7 @@
 function mapFilter(obj, callback) {
     const arrElements = [];
     for (let key in obj) {
-        arrElements.push(callback(obj[key], key, obj));
+        arrElements.push(callback(obj[key]));
     }
     const filterElemets = arrElements.filter(function (x){
         const limitation = x > 10
