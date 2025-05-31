@@ -1,6 +1,6 @@
 function mapFilter(obj, callback) {
     const arrElements = [];
-    for (let key in obj) {
+    for (const key in obj) {
         arrElements.push(callback(obj[key]));
     }
     const filterElemets = arrElements.filter(function (x){
